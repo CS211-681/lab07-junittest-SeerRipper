@@ -60,8 +60,8 @@ class StudentListTest {
     void testViewGradeOfId() {
         StudentList list = new StudentList();
         list.addNewStudent("7", "Frank", 82);
-        assertEquals("A", list.viewGradeOfId("7"));
+        assertEquals("P", list.viewGradeOfId("7"));
         list.addNewStudent("8","Hong",60);
-        assertEquals("C",list.viewGradeOfId("8"));
+        assertEquals("F",list.viewGradeOfId("8"));
     }
 }

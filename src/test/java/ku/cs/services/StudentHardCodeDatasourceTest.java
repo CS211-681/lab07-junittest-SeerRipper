@@ -13,9 +13,10 @@ class StudentHardCodeDatasourceTest {
         StudentList list;
         list = ds.readData();
         assertNotNull(list);
-        assertNotNull(list.findStudentById("6610000001"));
-        assertNotNull(list.findStudentById("6610000002"));
-        assertNotNull(list.findStudentById("6610000003"));
-        assertNotNull(list.findStudentById("6610000004"));
+        assertNotNull(list.findStudentById("6710400001"));
+        assertNotNull(list.findStudentById("6710400002"));
+        assertNotNull(list.findStudentById("6710400003"));
+        assertNotNull(list.findStudentById("6710400004"));
+
     }
 }
